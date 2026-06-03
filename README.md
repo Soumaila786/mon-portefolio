@@ -1,7 +1,7 @@
 # 🚀 Mon Portfolio
 
 <p align="center">
-  <img src="public/images/profile.png" alt="Photo de profil" width="180">
+  <img src="public/images/profile.jpeg" alt="Photo de profil" width="180">
 </p>
 
 <p align="center">
