@@ -1,0 +1,79 @@
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-num mono">01.</span>
+      <h2 class="section-title">À propos de moi</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="about-lead">
+          Bienvenue sur mon portfolio personnel. Je suis basé à <span class="accent">Ouagadougou, Burkina Faso</span>,
+          passionné par le développement web, le développement mobile et la conception de bases de données.
+        </p>
+        <p>
+          Ce portfolio présente mes compétences, mes projets, mon parcours académique ainsi que
+          les technologies que j'utilise dans mes réalisations. Je construis des applications
+          complètes, du back-end robuste jusqu'à l'interface utilisateur soignée.
+        </p>
+
+        <div class="about-highlights">
+          <div class="highlight-item"><i class="fas fa-map-marker-alt"></i><span>Ouagadougou, Burkina Faso</span></div>
+          <div class="highlight-item"><i class="fas fa-envelope"></i><a href="mailto:s.lankoande786@gmail.com">s.lankoande786@gmail.com</a></div>
+          <div class="highlight-item"><i class="fas fa-phone"></i><a href="tel:+22664314249">+226 64 31 42 49</a></div>
+          <div class="highlight-item"><i class="fas fa-graduation-cap"></i><span>Ingénieur de Travaux en Informatique — UJKZ</span></div>
+          <div class="highlight-item"><i class="fas fa-code"></i><span>Disponible pour collaborations & opportunités</span></div>
+        </div>
+
+        <a href="#" class="btn btn-outline"><i class="fas fa-download"></i> Télécharger mon CV</a>
+      </div>
+
+      <div class="about-visual">
+        <div class="avatar-frame">
+          <div class="avatar-wrapper">
+            {{#if profilePhoto}}
+              <img src="{{profilePhoto}}" alt="Photo LANKOANDE" class="avatar-photo" id="avatar-display">
+            {{else}}
+              <div class="avatar-initials-box" id="avatar-display">
+                <span class="avatar-initials">LNK</span>
+              </div>
+            {{/if}}
+            <div class="avatar-ring"></div>
+            <div class="avatar-ring ring-2"></div>
+            <form action="/profile/photo" method="POST" enctype="multipart/form-data" id="avatar-form">
+              <label class="avatar-upload-overlay" title="Changer la photo">
+                <i class="fas fa-camera"></i>
+                <span>Changer</span>
+                <input type="file" name="photo" accept="image/jpeg,image/png,image/webp" id="avatar-input" style="display:none">
+              </label>
+            </form>
+          </div>
+        </div>
+
+        {{#if avatarSuccess}}
+        <div class="avatar-toast"><i class="fas fa-check-circle"></i> {{avatarSuccess}}</div>
+        {{/if}}
+        {{#if error}}
+        <div class="avatar-toast avatar-toast-error"><i class="fas fa-exclamation-circle"></i> {{error}}</div>
+        {{/if}}
+
+        <div class="about-card">
+          <div class="about-card-row"><span class="mono label">Formation</span><span>Ingénieur Travaux Informatique</span></div>
+          <div class="about-card-row"><span class="mono label">Université</span><span>UJKZ — Ouagadougou</span></div>
+          <div class="about-card-row"><span class="mono label">Stack favori</span><span>Laravel + Python</span></div>
+          <div class="about-card-row"><span class="mono label">Langues</span><span>Français · Anglais</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+document.getElementById('avatar-input')?.addEventListener('change', function() {
+  if (this.files.length > 0) {
+    this.closest('label').innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+    document.getElementById('avatar-form').submit();
+  }
+});
+</script>
