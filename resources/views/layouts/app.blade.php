@@ -66,7 +66,7 @@
         <div class="footer-inner">
             <p class="footer-copy">
                 <span class="mono">© {{ date('Y') }}</span> — Conçu & développé par
-                <span class="accent">LANKOANDE</span>
+                <span class="accent">Soumaila LANKOANDE</span>
             </p>
             <div class="footer-socials">
                 <a href="https://github.com/Soumaila786/" aria-label="GitHub"><i class="fab fa-github"></i></a>

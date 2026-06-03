@@ -1,65 +1,138 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# 🚀 Mon Portfolio
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="public/images/profile.png" alt="Photo de profil" width="180">
 </p>
 
-## About Laravel
+<p align="center">
+  <strong>Soumaila Lankoandé</strong><br>
+  Développeur Full-Stack Web & Mobile | Étudiant en Informatique
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <a href="mailto:s.lankoande786@gmail.com">Email</a> •
+  <a href="https://github.com/Soumaila786">GitHub</a> •
+  <a href="https://www.linkedin.com/in/soumaila-lankoande-797a24413/">LinkedIn</a>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📖 À propos
 
-## Learning Laravel
+Bienvenue sur mon portfolio personnel.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Je suis passionné par le développement web, le développement mobile et la conception de bases de données. Ce portfolio présente mes compétences, mes projets, mon parcours académique ainsi que les technologies que j'utilise dans mes réalisations.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🛠️ Compétences Techniques
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Développement Web
 
-### Premium Partners
+* HTML5
+* CSS3
+* JavaScript
+* PHP
+* Laravel
+* Bootstrap
+* Tailwind CSS
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+### Bases de Données
 
-## Contributing
+* MySQL
+* PostgreSQL
+* SQLite
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Développement Mobile
 
-## Code of Conduct
+* Kivy (Python)
+* Android Studio (Notions)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Langages de Programmation
 
-## Security Vulnerabilities
+* Python
+* Java
+* PHP
+* JavaScript
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Outils
 
-## License
+* Git & GitHub
+* Visual Studio Code
+* Power BI
+* Excel Avancé
+* UML
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-"# mon-portefolio" 
+---
+
+## 🎓 Formation
+
+**Université Joseph Ki-Zerbo (UJKZ)**
+Ingénieur de Travaux en Informatique
+
+---
+
+## 💼 Expériences
+
+### Stage à la Direction des Systèmes d'Information (DSI) - UJKZ
+
+Participation à :
+
+* La gestion des systèmes d'information
+* L'administration des bases de données
+* Le développement d'applications
+* Le support informatique
+
+---
+
+## 🚀 Projets Réalisés
+
+### Gestion de Pharmacie
+
+Application complète permettant :
+
+* Gestion des médicaments
+* Gestion des ventes
+* Gestion des achats
+* Gestion des stocks
+* Gestion des utilisateurs
+
+### Base de Données des Projets en Recherche de Financement - UJKZ
+
+Application permettant :
+
+* L'enregistrement des projets
+* Le suivi des financements
+* La génération de rapports
+* La gestion des chercheurs
+
+### Mini Réseau Social
+
+Fonctionnalités :
+
+* Publication de contenus
+* Likes
+* Commentaires
+* Gestion des profils utilisateurs
+
+### Gestion de Stock
+
+* Entrées et sorties de produits
+* Inventaire
+* Rapports statistiques
+
+---
+
+## 📞 Contact
+
+N'hésitez pas à me contacter pour toute collaboration ou opportunité professionnelle.
+
+* Email : [s.lankoande786@gmail.com](mailto:s.lankoande786@gmail.com)
+* Téléphone : +226 64 31 42 49
+* Localisation : Ouagadougou, Burkina Faso
+
+---
+
+## 📄 Licence
+
+Ce projet est un portfolio personnel destiné à présenter mes compétences, expériences et réalisations.
